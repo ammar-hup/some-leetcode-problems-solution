@@ -29,3 +29,11 @@ vector<int> solution(vector<int> a) {
     
     return ans;
 }
+int main()
+{
+    vector<int> a{989};
+    vector<int> x;
+    x = solution(a);
+    for (auto o : x) cout << o << " ";
+    return 0;
+}
