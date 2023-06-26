@@ -4,8 +4,7 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
-#    l = fun(r.left,sum += r.left.val)
-#    r = fun(r.right,sum += r.right.val)
+
 
 class Solution:
     def hasPathSum(self, root: Optional[TreeNode], targetSum: int) -> bool:
