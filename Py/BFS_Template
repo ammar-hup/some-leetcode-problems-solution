@@ -1,0 +1,8 @@
+def bfs(root):
+            if not root : return []
+            result = [root.val]
+            left_vals = bfs(root.left)
+            right_vals = bfs(root.right)
+            result.extend(left_vals)
+            result.extend(right_vals)
+            return result
